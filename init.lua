@@ -1,4 +1,15 @@
+if vim.g.neovide then
+  -- vim.o.guifont = "JetBrainsMono Nerd Font:h14"
+  vim.g.neovide_transparency = 0.8
+end
+
 return {
+  plugins = {
+    "AstroNvim/astrocommunity",
+    { import = "astrocommunity.colorscheme.catppuccin"},
+    -- ... import any community contributed plugins here
+  },
+
   -- Configure AstroNvim updates
   updater = {
     remote = "origin", -- remote to use
@@ -18,7 +29,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
