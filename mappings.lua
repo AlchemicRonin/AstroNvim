@@ -35,9 +35,11 @@ return {
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
 
-        ["<F11>"] = {function()
-            vim.g.neovide_fullscreen = not vim.g.neovide_fullscreen
-        end}
+        ["<F11>"] = {
+            function()
+                vim.g.neovide_fullscreen = not vim.g.neovide_fullscreen
+            end
+        }
     },
     t = {
         -- setting a mapping to false will disable it
