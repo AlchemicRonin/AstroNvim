@@ -8,6 +8,7 @@ return {
     { import = "astrocommunity.completion.copilot-lua" },
 
     { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+    { import = "astrocommunity.colorscheme.gruvbox-nvim" },
     { import = "astrocommunity.pack.python" },
     { import = "astrocommunity.pack.cpp" },
     { import = "astrocommunity.pack.markdown" },

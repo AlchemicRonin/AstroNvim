@@ -23,7 +23,8 @@ return {
     },
 
     -- Set colorscheme to use
-    colorscheme = "tokyonight",
+    colorscheme = "tokyonight-night",
+    -- colorscheme = {"gruvbox"},
     -- colorscheme = "catppuccin",
     -- colorscheme = "sonokai",
 
