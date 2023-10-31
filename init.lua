@@ -1,5 +1,6 @@
 if vim.g.neovide then
   vim.g.neovide_transparency = 0.95
+  vim.g.neovide_hide_mouse_when_typing = true
 end
 
 return {
@@ -23,6 +24,8 @@ return {
 
   -- Set colorscheme to use
   colorscheme = "tokyonight",
+  -- colorscheme = "catppuccin",
+  -- colorscheme = "sonokai",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {

@@ -4,7 +4,7 @@ return {
   -- example of importing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
-  { import = "astrocommunity.colorscheme.catppuccin" },
+  -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.colorscheme.gruvbox-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   -- { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
@@ -23,5 +23,6 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.completion.copilot-lua"}
+  { import = "astrocommunity.completion.copilot-lua"},
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim"},
 }
