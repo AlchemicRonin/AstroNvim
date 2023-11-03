@@ -13,5 +13,5 @@ return {
       -- null_ls.builtins.formatting.prettier,
     }
     return config -- return final config table
-  end,
+  end
 }
