@@ -109,9 +109,7 @@ return {
       return hl
     end,
     attributes = {
-      mode = {
-        bold = true,
-      },
+      mode = { bold = true },
     },
     icon_highlights = {
       file_icon = {
