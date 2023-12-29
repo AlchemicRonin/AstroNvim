@@ -34,6 +34,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.docker" },
 
   { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
